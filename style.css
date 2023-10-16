@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --bg-color: gainsboro;
+    --second-color: aliceblue;
+}
+body{
+    padding: 20px;
+
+}
+.cantainer{
+    width: 100%;
+    height: 100VH;
+    background-color:  #e3f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.calculatur{
+    background-color:#3a4452;
+  
+    width:290PX;  
+    height: 65VH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8PX;
+}
+.calculatur form input{
+    border: none;
+    width: 258PX;
+    height: 40PX;
+    background-color: #3a4452;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+
+}
+.calculatur .number{
+    margin-top: 19PX;
+}
+.calculatur .number input{
+    width: 40PX;
+    height: 40PX; 
+    margin-left: 25PX;
+    margin-bottom: 8PX;
+    margin-top: 8PX;
+    text-align: center;
+    border-radius: 3PX;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color:#3a4452;
+    border: none;
+    padding: 10PX;
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+    font-size: 15PX;
+}
+.diffcolor{
+    color:aqua !important;
+}
+.number .egal{
+    width:110PX !important;
+}
+
+
